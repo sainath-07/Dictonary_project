@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #ae9cff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+}
+.container {
+  background-color: #fff;
+  /* border: 2px solid red; */
+  width: 90vmin;
+  padding: 20px 20px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: fixed;
+}
+
+.searchbox {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  width: 100%;
+  /* padding: 14px; */
+}
+
+#input-word {
+  width: 70%;
+  margin-left: 60px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding-left: 10px;
+  border-bottom: 3px solid purple;
+}
+
+#button {
+  width: 12%;
+  background: #ae9cff;
+  outline: none;
+  border: none;
+  font-size: 102%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: "Segoe UI";
+  font-weight: 600;
+  padding: 10px;
+}
+#button:hover {
+  opacity: 0.8;
+  border-radius: 3px;
+}
+#container {
+  border: 2px solid none;
+  outline: none;
+  /* background-color: #fff;
+     */
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;  line-height: 25px;
+  height: 120px;
+  border-radius: 4px;
+  margin: 0 65px;
+  margin-top: 25px;
+  overflow:  hidden scroll ;
+}
+#container p {
+  border-left: 4px solid rgb(226, 44, 44);
+  padding-left: 20px;
+  font-family: "Segoe UI";
+  font-size: 100%;
+  font-weight: 400;
+}
+/* #container::-webkit-scrollbar {
+  display: none;
+}
+ */
+
+#synonym,#word,#h3,
+#phonetic {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 120%;
+  padding-left: 30px;
+  font-weight: 400;
+  font-family: "Segoe UI";
+}
+
+
+
